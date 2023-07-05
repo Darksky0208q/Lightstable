@@ -1,11 +1,11 @@
-git clone -b v2-16 https://github.com/phamhungd/SDVN-Legacy /content/SDVN
-git clone -b v2-23 https://github.com/phamhungd/SDVN
-git clone -b v2-28 https://github.com/phamhungd/SDVN
-git clone https://github.com/phamhungd/SDVN
+git clone -b v2-16 https://github.com/Darksky0208q/SDVN-Legacy /content/SDVN
+git clone -b v2-23 https://github.com/Darksky0208q/SDVN
+git clone -b v2-28 https://github.com/Darksky0208q/SDVN
+git clone https://github.com/Darksky0208q/SDVN
 
-git clone -b oldver https://github.com/phamhungd/sd-webui-llul /content/SDVN/extensions/B-Llul
-git clone https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin.git /content/SDVN/extensions/Auto-Photoshop
-git clone https://github.com/phamhungd/sd-webui-llul /content/SDVN/extensions/B-Llul
+git clone -b oldver https://github.com/Darksky0208q/Llul /content/SDVN/extensions/B-Llul
+git clone https://github.com/Darksky0208q/Auto-Photoshop-StableDiffusion-Plugin.git /content/SDVN/extensions/Auto-Photoshop
+git clone https://github.com/Darksky0208q/Llul /content/SDVN/extensions/B-Llul
 
 git clone https://huggingface.co/phamhungd/Basecontrolnet /content/Basecontrolnet
 ln -s /content/Basecontrolnet /content/SDVN/extensions/sd-webui-controlnet/models/
@@ -50,7 +50,7 @@ aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stabledi
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
 
 git clone https://huggingface.co/phamhungd/clone /content/clone
-git clone https://github.com/phamhungd/WC-SDVN /content/WC-SDVN
+git clone https://github.com/Darksky0208q/WC-SDVN /content/WC-SDVN
 ln -s /content/drive/MyDrive/SD-Data/Lora /content/SDVN/extensions/Additional-networks/models/lora
 ln -s /content/drive/MyDrive/SD-Data/wildcards /content/SDVN/extensions/Dynamic-prompts/
 rm /content/drive/MyDrive/SD-Data/Embeddings/Negative
@@ -61,9 +61,9 @@ rm /content/drive/MyDrive/SD-Data/wildcards/WC-SDVN
 ln -s /content/WC-SDVN /content/drive/MyDrive/SD-Data/wildcards
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/110431 -d /content/SDVN/models/Stable-diffusion -o SDVN3-RealArt.safetensors
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/SDVN3-RealArt.jpg -d /content/SDVN/models/Stable-diffusion
-git clone -b fullver https://github.com/phamhungd/sdvn-auto /content/SDVN
+git clone -b fullver https://github.com/Darksky0208q/sdvn-auto /content/SDVN
 
-git clone https://github.com/camenduru/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
+git clone https://github.com/Darksky0208q/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
 git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
 
 extensions/sd-webui-controlnet/models
