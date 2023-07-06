@@ -22,7 +22,7 @@ aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stabledi
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/ui-config.json -d /content/SDVN/ -o ui-config.json
 
 rm /content/SDVN/html/card-no-preview.png
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/card-no-preview.png -d /content/SDVN/html
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=13B6oDCTN-w-nMyulTsWnDq8pEgBL34Az&export=download -d /content/SDVN/html
 rm /content/SDVN/style.css
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/style.css -d /content/SDVN/
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/localization.json -d /content/SDVN/localizations
@@ -32,6 +32,7 @@ aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stabledi
 #aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors -d /content/SDVN/models/Stable-diffusion -o VAE56.vae.pt
 #aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/Waifu-anime.vae.pt -d /content/SDVN/models/Stable-diffusion -o Waifu-anime.vae.pt
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/datasets/VASVASVAS/vae/resolve/main/pastel-waifu-diffusion.vae.pt -d /content/SDVN/models/Stable-diffusion -o pastel-waifu-diffusion.vae.pt
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/Anime-fp16.vae.pt -d /content/SDVN/models/Stable-diffusion -o Anime.vae.pt
 
 mkdir /content/drive/MyDrive/SD-Data/
 mkdir /content/drive/MyDrive/SD-Data/Model
