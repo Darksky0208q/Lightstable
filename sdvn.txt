@@ -46,7 +46,7 @@ rm /content/drive/MyDrive/SD-Data/Setting15/style.csv
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=1RKqn36jx4NT3IR9uJtQWA2XYXg2lfHSy&export=download -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
   
 rm -r /content/drive/MyDrive/SD-Data/Setting15
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=1RKqn36jx4NT3IR9uJtQWA2XYXg2lfHSy&export=download -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
 
 git clone https://huggingface.co/phamhungd/clone /content/clone
@@ -60,7 +60,7 @@ ln -s /content/clone/Lora /content/drive/MyDrive/SD-Data/Lora
 rm /content/drive/MyDrive/SD-Data/wildcards/WC-SDVN
 ln -s /content/WC-SDVN /content/drive/MyDrive/SD-Data/wildcards
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/110431 -d /content/SDVN/models/Stable-diffusion -o SDVN3-RealArt.safetensors
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/SDVN3-RealArt.jpg -d /content/SDVN/models/Stable-diffusion
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/SDVN3-RealArt.jpg -d /content/SDVN/models/Stable-diffusion
 git clone -b fullver https://github.com/Darksky0208q/sdvn-auto /content/SDVN
 
 git clone https://github.com/Darksky0208q/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
