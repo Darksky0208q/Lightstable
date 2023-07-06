@@ -1,4 +1,4 @@
-git clone -b sdvn https://github.com/phamhungd/sd-webui-tunnels/
+git clone -b sdvn https://github.com/Darksky0208q/sd-webui-tunnels
 git clone https://github.com/kohya-ss/sd-webui-additional-networks
 git clone https://github.com/Mikubill/sd-webui-controlnet 
 git clone https://github.com/fkunn1326/openpose-editor 
