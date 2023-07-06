@@ -14,4 +14,4 @@ git clone https://github.com/AIrjen/OneButtonPrompt
 git clone https://github.com/ParisNeo/prompt_translator 
 git clone https://github.com/hako-mikan/sd-webui-regional-prompter
 git clone https://github.com/Bing-su/Adetailer 
-git clone -b sdvn https://github.com/phamhungd/sd-civitai-browser
+git clone -b sdvn https://github.com/Darksky0208q/sd-civitai-browser
