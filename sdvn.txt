@@ -15,19 +15,19 @@ ln -s /content/Extracontrolnet /content/SDVN/extensions/sd-webui-controlnet/mode
 
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt -d /content/SDVN/models/Stable-diffusion -o VAE84.vae.pt
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/4x-UltraSharp.ckpt -d /content/SDVN/models/ESRGAN -o 4x-UltraSharp.pth
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/run_n_times.txt -d /content/SDVN/scripts -o run_n_times.py
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/loopback_wave.txt -d /content/SDVN/scripts -o loopback_wave.py
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/multi_frame_render.txt -d /content/SDVN/scripts -o multi_frame_render.py
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/params.txt -d /content/SDVN/ -o params.txt
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/ui-config.json -d /content/SDVN/ -o ui-config.json
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/run_n_times.txt -d /content/SDVN/scripts -o run_n_times.py
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/loopback_wave.txt -d /content/SDVN/scripts -o loopback_wave.py
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/multi_frame_render.txt -d /content/SDVN/scripts -o multi_frame_render.py
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/params.txt -d /content/SDVN/ -o params.txt
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/ui-config.json -d /content/SDVN/ -o ui-config.json
 
 rm /content/SDVN/html/card-no-preview.png
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/card-no-preview.png -d /content/SDVN/html
 rm /content/SDVN/style.css
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/style.css -d /content/SDVN/
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/localization.json -d /content/SDVN/localizations
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/style.css -d /content/SDVN/
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/localization.json -d /content/SDVN/localizations
 rm /content/SDVN/html/footer.html
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/footer.txt -d /content/SDVN/html -o footer.html
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/footer.txt -d /content/SDVN/html -o footer.html
 
 #aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/datasets/VASVASVAS/vae/resolve/main/pastel-waifu-diffusion.vae.pt -d /content/SDVN/models/Stable-diffusion -o pastel-waifu-diffusion.vae.pt
 #aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/Waifu-anime.vae.pt -d /content/SDVN/models/Stable-diffusion -o Waifu-anime.vae.pt
@@ -39,8 +39,8 @@ mkdir /content/drive/MyDrive/SD-Data/Lora
 mkdir /content/drive/MyDrive/SD-Data/Embeddings
 mkdir /content/drive/MyDrive/SD-Data/wildcards
 mkdir /content/drive/MyDrive/SD-Data/Hypernetworks
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
 mkdir /content/drive/MyDrive/SD-Data/Lyco
 rm /content/drive/MyDrive/SD-Data/Setting15/style.csv
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://github.com/Darksky0208q/Lightstable/blob/main/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
