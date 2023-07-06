@@ -3,7 +3,7 @@ git clone -b v2-23 https://github.com/Darksky0208q/SDVN
 git clone -b v2-28 https://github.com/Darksky0208q/SDVN
 git clone https://github.com/Darksky0208q/SDVN
 
-git clone -b oldver https://github.com/Darksky0208q/Llul /content/SDVN/extensions/B-Llul
+git clone -b oldver https://github.com/phamhungd/sd-webui-llul /content/SDVN/extensions/B-Llul
 git clone https://github.com/Darksky0208q/Auto-Photoshop-StableDiffusion-Plugin.git /content/SDVN/extensions/Auto-Photoshop
 git clone https://github.com/Darksky0208q/Llul /content/SDVN/extensions/B-Llul
 
@@ -22,7 +22,7 @@ aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.git
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/ui-config.json -d /content/SDVN/ -o ui-config.json
 
 rm /content/SDVN/html/card-no-preview.png
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=13B6oDCTN-w-nMyulTsWnDq8pEgBL34Az&export=download -d /content/SDVN/html
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/card-no-preview.png -d /content/SDVN/html
 rm /content/SDVN/style.css
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/style.css -d /content/SDVN/
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/localization.json -d /content/SDVN/localizations
@@ -40,14 +40,14 @@ mkdir /content/drive/MyDrive/SD-Data/Embeddings
 mkdir /content/drive/MyDrive/SD-Data/wildcards
 mkdir /content/drive/MyDrive/SD-Data/Hypernetworks
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=1RKqn36jx4NT3IR9uJtQWA2XYXg2lfHSy&export=download -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
 mkdir /content/drive/MyDrive/SD-Data/Lyco
 rm /content/drive/MyDrive/SD-Data/Setting15/style.csv
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=1RKqn36jx4NT3IR9uJtQWA2XYXg2lfHSy&export=download -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
   
 rm -r /content/drive/MyDrive/SD-Data/Setting15
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/config.json -d /content/drive/MyDrive/SD-Data/Setting15 -o config.json
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=1RKqn36jx4NT3IR9uJtQWA2XYXg2lfHSy&export=download -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/styles.csv -d /content/drive/MyDrive/SD-Data/Setting15 -o styles.csv
 
 git clone https://huggingface.co/phamhungd/clone /content/clone
 git clone https://github.com/Darksky0208q/WC-SDVN /content/WC-SDVN
@@ -61,7 +61,7 @@ rm /content/drive/MyDrive/SD-Data/wildcards/WC-SDVN
 ln -s /content/WC-SDVN /content/drive/MyDrive/SD-Data/wildcards
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/110431 -d /content/SDVN/models/Stable-diffusion -o SDVN3-RealArt.safetensors
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://raw.githubusercontent.com/Darksky0208q/Lightstable/main/SDVN3-RealArt.jpg -d /content/SDVN/models/Stable-diffusion
-git clone -b fullver https://github.com/Darksky0208q/sdvn-auto /content/SDVN
+git clone -b fullver https://github.com/phamhungd/sdvn-auto /content/SDVN
 
 git clone https://github.com/Darksky0208q/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
 git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /content/SDVN/extensions/A1111-Locon
