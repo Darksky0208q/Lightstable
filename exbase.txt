@@ -1,8 +1,8 @@
-git clone https://github.com/phamhungd/sd-webui-tunnels/ /content/SDVN/extensions/Tunnels
+git clone https://github.com/Darksky0208q/sd-webui-tunnels /content/SDVN/extensions/Tunnels
 git clone https://github.com/kohya-ss/sd-webui-additional-networks /content/SDVN/extensions/Additional-networks
 git clone https://github.com/Mikubill/sd-webui-controlnet /content/SDVN/extensions/sd-webui-controlnet
 git clone https://github.com/fkunn1326/openpose-editor /content/SDVN/extensions/Openpose-editor
-git clone https://github.com/phamhungd/sd-webui-lora-block-weight /content/SDVN/extensions/Block-weight
+git clone https://github.com/Darksky0208q/sd-webui-lora-block-weight /content/SDVN/extensions/Block-weight
 git clone https://github.com/thomasasfk/sd-webui-aspect-ratio-helper /content/SDVN/extensions/AR-helper
 git clone https://github.com/hako-mikan/sd-webui-supermerger /content/SDVN/extensions/Supermerger
 git clone https://github.com/adieyal/sd-dynamic-prompts /content/SDVN/extensions/Dynamic-prompts
@@ -14,7 +14,7 @@ git clone https://github.com/ParisNeo/prompt_translator /content/SDVN/extensions
 git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris /content/SDVN/extensions/Lycoris
 git clone https://github.com/hako-mikan/sd-webui-regional-prompter /content/SDVN/extensions/A6-Regional-prompter
 git clone https://github.com/Bing-su/Adetailer /content/SDVN/extensions/A2-Adetailer
-git clone -b sdvn https://github.com/phamhungd/sd-civitai-browser /content/SDVN/extensions/Civitai
+git clone -b sdvn https://github.com/Darksky0208q/sd-civitai-browser /content/SDVN/extensions/Civitai
 git clone https://github.com/phamhungd/RoopSD /content/SDVN/extensions/RoopSD
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/inswapper_128.onnx -d /content/SDVN/extensions/RoopSD/models -o inswapper_128.onnx
 git clone https://github.com/huchenlei/sd-webui-openpose-editor /content/SDVN/extensions/Openpose-editor
