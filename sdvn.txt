@@ -6,7 +6,7 @@ git clone https://github.com/phamhungd/SDVN
 git clone -b oldver https://github.com/phamhungd/sd-webui-llul /content/SDVN/extensions/B-Llul
 git clone https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin.git /content/SDVN/extensions/Auto-Photoshop
 git clone https://github.com/phamhungd/sd-webui-llul /content/SDVN/extensions/B-Llul
-
+git clone https://huggingface.co/phamhungd/Prunedcontrolnet /content/Basecontrolnet
 git clone https://huggingface.co/phamhungd/Basecontrolnet /content/Basecontrolnet
 ln -s /content/Basecontrolnet /content/SDVN/extensions/sd-webui-controlnet/models/
 
@@ -20,9 +20,9 @@ aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://stabled
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://stablediffusion.vn/wp-content/uploads/Colab/script/multi_frame_render.txt -d /content/SDVN/scripts -o multi_frame_render.py
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/params.txt -d /content/SDVN/ -o params.txt
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/ui-config.json -d /content/SDVN/ -o ui-config.json
-
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/phamhungd/GuoZovya/resolve/main/4x-RealisticRescaler.pth -d /content/SDVN/models/ESRGAN -o 4x-RealisticRescaler.pth
 rm /content/SDVN/html/card-no-preview.png
-aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M https://drive.google.com/uc?id=13B6oDCTN-w-nMyulTsWnDq8pEgBL34Az&export=download -d /content/SDVN/html
+aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/card-no-preview.png -d /content/SDVN/html
 rm /content/SDVN/style.css
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/style.css -d /content/SDVN/
 aria2c --continue --console-log-level=error -c -x 16 -s 16 -k 1M http://stablediffusion.vn/wp-content/uploads/Colab/v15/localization.json -d /content/SDVN/localizations
